@@ -1,0 +1,24 @@
+﻿  JobSystem.cpp
+D:\Project\EnolaEngine\include\JobSystem.h(19,1): error C2757: “JobSystem”: 具有该名称的符号已存在，因此该名称不能用作命名空间名称
+D:\Project\EnolaEngine\src\JobSystem.cpp(5,5): error C2065: “finishedLabel”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(11,5): error C2065: “numThreads”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(14,44): error C2065: “numThreads”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(23,21): error C2065: “jobPool”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(27,21): error C2065: “finishedLabel”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(32,26): error C2039: "unique_lock": 不是 "std" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\functional(31): message : 参见“std”的声明
+D:\Project\EnolaEngine\src\JobSystem.cpp(37,13): error C2065: “unique_lock”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(32,43): error C2039: "mutex": 不是 "std" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\functional(31): message : 参见“std”的声明
+D:\Project\EnolaEngine\src\JobSystem.cpp(37,13): error C2065: “mutex”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(32,55): error C2065: “wakeMutex”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(32,50): error C3861: “lock”: 找不到标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(33,21): error C2065: “wakeCondition”: 未声明的标识符
+D:\Project\EnolaEngine\src\JobSystem.cpp(33,40): error C2065: “lock”: 未声明的标识符
+  main.cpp
+D:\Project\EnolaEngine\include\JobSystem.h(19,1): error C2757: “JobSystem”: 具有该名称的符号已存在，因此该名称不能用作命名空间名称
+D:\Project\EnolaEngine\src\main.cpp(12,18): error C2059: 语法错误:“;”
+D:\Project\EnolaEngine\src\main.cpp(12,22): error C2059: 语法错误:“)”
+D:\Project\EnolaEngine\src\main.cpp(12,21): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Project\EnolaEngine\src\main.cpp(16,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  正在生成代码...
